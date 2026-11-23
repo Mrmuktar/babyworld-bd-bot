@@ -1,7 +1,7 @@
 {
-  "name": "babyworld-bd-premium-order-bot",
-  "version": "2.0.0",
-  "description": "Single-admin WhatsApp order management bot for Baby World BD",
+  "name": "babyworld-bd-functional-order-bot-v6",
+  "version": "6.0.0",
+  "description": "Baby World BD functional WhatsApp order management and Steadfast booking",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
