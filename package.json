@@ -1,0 +1,18 @@
+{
+  "name": "babyworld-bd-premium-order-bot",
+  "version": "2.0.0",
+  "description": "Single-admin WhatsApp order management bot for Baby World BD",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4"
+  }
+}
