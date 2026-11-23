@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: babyworld-bd-whatsapp-bot
+    name: babyworld-bd-premium-order-bot
     runtime: node
     plan: free
     buildCommand: npm install
@@ -9,10 +9,10 @@ services:
       - key: ADMIN_NUMBER
         sync: false
       - key: DATA_DIR
-        value: /data
-      - key: PORT
-        value: 10000
-    disk:
-      name: babyworld-bd-data
-      mountPath: /data
-      sizeGB: 1
+        value: /tmp/babyworld-bd-data
+      - key: STEADFAST_API_KEY
+        sync: false
+      - key: STEADFAST_SECRET_KEY
+        sync: false
+      - key: STEADFAST_API_URL
+        value: https://portal.packzy.com/api/v1/create_order
