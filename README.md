@@ -1,1 +1,0 @@
-# babyworld-bd-bot
